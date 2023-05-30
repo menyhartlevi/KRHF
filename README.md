@@ -138,7 +138,7 @@ def processImage(self, img):
         [...]
 ```
 
-Ezek a legfőbb módosítások, a többi (pl. verziók kiíratása és ellenőrzése) megtalálható a feltöltött ```line_follower_cnn.py``` fájlban.
+Ezek a legfőbb módosítások, a többi (pl. verziók kiíratása és ellenőrzése, megjelenítéssel kapcsolatos funkciók eltávolítása) megtalálható a feltöltött ```line_follower_cnn.py``` fájlban.
 
 
 # eddig újragondolni
