@@ -107,7 +107,7 @@ A vonalkövetés megvalósítását a TensorFlow Lite csomag segítségével vé
 
 A több, TensorFlow-hoz szükséges csomag helyett elegendő a TFLite-ot importálni:
 ```python
-import tensorflow.lite as tflite
+import tflite_runtime.interpreter as tflite
 ```
 
 TensorFlow esetén elég volt betölteni a modellt a ```load_model``` segítségével, a predikció pedig a ```model(image)``` segítségével történt. Azonban TensorFLow Lite használata esetén létre kellett hozni egy ```Interpreter``` objektumot, allokálni a tenzorokat, majd a predikcióhoz használni a ```set_tensor``` és ```invoke``` függvényeket.
