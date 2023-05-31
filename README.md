@@ -1,5 +1,16 @@
 # KRHF
+
 Kognitív robotika HF
+# Table of Contents
+
+- [Kognitív robotika Házi Feladat](#kognitív-robotika-házi-feladat)
+  - [Telepítési útmutató](#telepítési-útmutató)
+  - [Felhasznált csomagok](#felhasznált-csomagok)
+  - [Videó](#videó)
+  - [ettől //törölni is lehet](#ettől-törölni-is-lehet)
+    - [A modell átkonvertálása](#a-modell-átkonvertálása)
+    - [Új line follower node létrehozása](#új-line-follower-node-létrehozása)
+- [eddig újragondolni](#eddig-újragondolni)
 
 Feladatunk vobalkövetés megvalósítása volt turtlebottal és neurűlis hálóval.
 A neurális hálót a roboton kellett futtatnunk egy külön számítógép helyett.
